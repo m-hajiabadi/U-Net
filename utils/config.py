@@ -32,4 +32,5 @@ BASE_OUTPUT = "output"
 # plot, and testing image paths
 MODEL_PATH = os.path.join(BASE_OUTPUT, "unet.pth")
 PLOT_PATH = os.path.sep.join([BASE_OUTPUT, "plot.png"])
+PLOT_PATH_PREDICTION = os.path.sep.join([BASE_OUTPUT, "prediction.png"])
 TEST_PATHS = os.path.sep.join([BASE_OUTPUT, "test_paths.txt"])

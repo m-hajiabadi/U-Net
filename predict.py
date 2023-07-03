@@ -7,22 +7,24 @@ import numpy as np
 import torch
 import cv2
 import os
-def prepare_plot(origImage, origMask, predMask):
-	# initialize our figure
-	figure, ax = plt.subplots(nrows=1, ncols=3, figsize=(10, 10))
-	# plot the original image, its mask, and the predicted mask
-	ax[0].imshow(origImage)
-	ax[1].imshow(origMask)
-	ax[2].imshow(predMask)
-	# set the titles of the subplots
-	ax[0].set_title("Image")
-	ax[1].set_title("Original Mask")
-	ax[2].set_title("Predicted Mask")
-	# set the layout of the figure and display it
-	figure.tight_layout()
-	figure.show()
+
+def prepare_plot(origImage, origMask, predMask, imagePath, index):
+    plot_image(index, 1, origImage, "Image")
+    plot_image(index, 2, origMask, "Original Mask")
+    # write the image path as text below the plot
+    plt.text(0.5, -0.5, imagePath, ha='center', va='center', transform=plt.gca().transAxes)
+    plot_image(index, 3, predMask, "Predicted Mask")
+    
+
+
+
+def plot_image(index, arg1, arg2, arg3):
+    # plot the original image, its mask, and the predicted mask
+    plt.subplot(len(imagePaths), 3, index*3 + arg1)
+    plt.imshow(arg2)
+    plt.title(arg3)
  
-def make_predictions(model, imagePath):
+def make_predictions(model, imagePath, index):
 	# set model to evaluation mode
 	model.eval()
 	# turn off gradient tracking
@@ -60,17 +62,24 @@ def make_predictions(model, imagePath):
 		predMask = (predMask > config.THRESHOLD) * 255
 		predMask = predMask.astype(np.uint8)
 		# prepare a plot for visualization
-		prepare_plot(orig, gtMask, predMask)
+		prepare_plot(orig, gtMask, predMask, imagePath, index)
   
 # load the image paths in our testing file and randomly select 10
 # image paths
 print("[INFO] loading up test image paths...")
 imagePaths = open(config.TEST_PATHS).read().strip().split("\n")
-imagePaths = np.random.choice(imagePaths, size=10)
+imagePaths = np.random.choice(imagePaths, size=3)
 # load our model from disk and flash it to the current device
 print("[INFO] load up model...")
 unet = torch.load(config.MODEL_PATH).to(config.DEVICE)
+
+figure = plt.figure(figsize=(10, 10))
+
 # iterate over the randomly selected test image paths
-for path in imagePaths:
-	# make predictions and visualize the results
-	make_predictions(unet, path)
+for index, path in enumerate(imagePaths):
+    # make predictions and visualize the results
+    make_predictions(unet, path, index)
+
+# set the layout of the figure and display it
+plt.tight_layout()
+plt.savefig(config.PLOT_PATH_PREDICTION)
