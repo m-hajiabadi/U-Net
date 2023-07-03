@@ -39,5 +39,8 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Models
+*.pth 
+
 # Dataset folder and files
 dataset/
