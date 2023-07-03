@@ -1,0 +1,90 @@
+dataset/train/images/HAFEZ GHOLAMALI ZADENarin-131of131.png
+dataset/train/images/JahanshahiYaser-113of113.png
+dataset/train/images/Razegh ManeshAbdolrazagh-92of92.png
+dataset/train/images/RefahifarjaditehraniPARVANE-39of48.png
+dataset/train/images/HABIBINeda-231of231.png
+dataset/train/images/MADAHSADEGH-927of927.png
+dataset/train/images/BAYATSAM-124of130.png
+dataset/train/images/KarimpoorgolsefidZAHRA-155of155.png
+dataset/train/images/MostahkamFarideh-254of272.png
+dataset/train/images/TAVASOULIAli-143of143.png
+dataset/train/images/MORADI  SADRParvin-108of121.png
+dataset/train/images/Ghasem ShoarSAMANE-53of53.png
+dataset/train/images/ABIRIFereydon-33of33.png
+dataset/train/images/Alavi NezhadANAHITA-58of58.png
+dataset/train/images/SodeyfiAlireza-48of61.png
+dataset/train/images/AMINIFARIBORZ-39of39.png
+dataset/train/images/Karbalaei HasanMohammadali-194of194.png
+dataset/train/images/MOTIEIEMARJANEH-99of99.png
+dataset/train/images/Karbalaei HasanMohammadali-293of293.png
+dataset/train/images/Polad ZadeLida-137of137.png
+dataset/train/images/DARDASHTIYANTayebe-322of359.png
+dataset/train/images/KazempoorFarideh-281of281.png
+dataset/train/images/Abotorabi ArdestaniMOHAMMAD-96of96.png
+dataset/train/images/AmiriReza-30of30.png
+dataset/train/images/BITARAFANGOLNAZ-180of193.png
+dataset/train/images/TabatabaeizavareSODABE-102of102.png
+dataset/train/images/ESFANDYARIFatemeh-154of173.png
+dataset/train/images/KhandanroojavanNarin-198of219.png
+dataset/train/images/KAMELIATUSA-38of38.png
+dataset/train/images/SARIEIEMOHAMMAD HASAN-75of75.png
+dataset/train/images/ShadrokhbagherzadezanjaniFarangis-110of110.png
+dataset/train/images/AmiriReza-52of52.png
+dataset/train/images/JAMEBOZORGIHAMID-338of338.png
+dataset/train/images/AMINIFARIBORZ-35of35.png
+dataset/train/images/SOLEYMANIBehroz-60of71.png
+dataset/train/images/SHAHBZ KHANIGHOLAMHOSEIN-136of136.png
+dataset/train/images/AlsaediRezvan-142of142.png
+dataset/train/images/ZOLGHADRNOZHAN-108of122.png
+dataset/train/images/ZOLGHADRNOZHAN-37of37.png
+dataset/train/images/TAHERIMAHDI-171of171.png
+dataset/train/images/MASHHADISEYEDEH SHIRIN-75of88.png
+dataset/train/images/KOROYAN MOTLAGHMALEK MASUD-112of112.png
+dataset/train/images/HEYDARIAhmad-425of456.png
+dataset/train/images/HEYDARIAhmad-106of120.png
+dataset/train/images/SajadyanHasan-136of136.png
+dataset/train/images/MOUSAPOORASHKAN-97of97.png
+dataset/train/images/SadattaheriazamZAHRA-132of132.png
+dataset/train/images/KHODADADIShooresh-138of138.png
+dataset/train/images/TAHERIDINA-164of164.png
+dataset/train/images/MOTIEIEMARJANEH-464of537.png
+dataset/train/images/NASERIDaryoush-127of127.png
+dataset/train/images/GHAMARIMASOUDREZA-312of312.png
+dataset/train/images/Hadi ManeshMARYAM-61of61.png
+dataset/train/images/TAHERIMAHDI-257of307.png
+dataset/train/images/MOTIEIEMARJANEH-114of127.png
+dataset/train/images/REZAEEAlireza-248of248.png
+dataset/train/images/AZARAKHSHIMASOOD-17of22.png
+dataset/train/images/AmiriHossein-386of386.png
+dataset/train/images/AHMAD HASHEMISHAMSI-25of25.png
+dataset/train/images/RAFAIZOHRE-738of738.png
+dataset/train/images/EbrahimiKimia-39of39.png
+dataset/train/images/MehtarpoorDavod-39of39.png
+dataset/train/images/JAMEBOZORGIHAMID-24of24.png
+dataset/train/images/KARCHANECHIAMIR MAHDI-23of23.png
+dataset/train/images/AELAMBOLCHISEYED GHOLAMREZA-127of176.png
+dataset/train/images/GODAZIEsmat-30of30.png
+dataset/train/images/MASALIAhmadreza-272of272.png
+dataset/train/images/HABIBINeda-353of353.png
+dataset/train/images/YASINIESMAEIL-55of55.png
+dataset/train/images/HOMAYON FARKambiz-201of201.png
+dataset/train/images/KHEIR  ANDISHNarges-18of18.png
+dataset/train/images/Ashtiyani AraghiFarzaneh-38of38.png
+dataset/train/images/MAHDIYANSaeid-262of272.png
+dataset/train/images/EJMAEIANFariba-140of140.png
+dataset/train/images/Pashm Ris HamedEMAD-363of397.png
+dataset/train/images/Ashtiyani AraghiFarzaneh-50of50.png
+dataset/train/images/AmiriGolamreza-75of75.png
+dataset/train/images/ANSARIABOLQASEM-35of35.png
+dataset/train/images/EJMAEIANFariba-270of283.png
+dataset/train/images/YOSEFI FAKHRSYDE MARZIYE-165of165.png
+dataset/train/images/KAMOOIESHAHLA-128of128.png
+dataset/train/images/PARKISODABEH-59of63.png
+dataset/train/images/JAFARI TANBAKOEIELAHE SADAT-73of73.png
+dataset/train/images/SYD HASANTEHRANIMohsen-637of650.png
+dataset/train/images/AbdollahAliahmad-117of117.png
+dataset/train/images/BABAZADEMAGHSOUDLOOYAZDAN-1119of1119.png
+dataset/train/images/MalekniaMAHSHAD-122of128.png
+dataset/train/images/KOROYAN MOTLAGHMALEK MASUD-115of135.png
+dataset/train/images/RefahifarjaditehraniPARVANE-273of273.png
+dataset/train/images/AHMAD HASHEMISHAMSI-998of998.png
