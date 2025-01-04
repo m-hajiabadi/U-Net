@@ -8,7 +8,6 @@ This project implements a UNet model for medical image segmentation using PyTorc
 - PyTorch
 - torchvision
 - numpy
-- imutils
 - tqdm
 - PIL
 - opencv-python
